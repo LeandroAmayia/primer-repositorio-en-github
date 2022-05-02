@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(img/copa.jpeg);
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid rgba(0, 0, 255, 0.158);
+}
+header{
+   display: flex;
+   width: 90%;
+   height: 50px;
+   background-color: rgba(0, 0, 255, 0.267);
+   margin-top: 10px;
+   margin-left: 20px;
+   border-radius: 15px;
+}
+header img{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px
+}
+.enlases-header{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.enlases-header a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.section{
+ display: flex;
+ flex-wrap: wrap;
+}
+.container{
+    width: 100vw;
+    height: 30vh;
+  
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow:3px 5px 5px rgb(150, 30, 30);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: rgb(54, 34, 170);
+}
+.container h2{
+    font-size:35px;
+    font-family: inherit;
+    font-weight: 700;
+    color: lightcoral;
+    text-shadow: 3px 5px 5px blue;
+    margin-left: 10%;
+}
+.card {
+    flex-direction: column;
+    width: 25vw;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin:0 20px;
+    background-color: rgba(0, 139, 139, 0.37);
+ 
+    
+}
+.card h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: blue;
+    text-shadow: 3px 5px 5px white;
+}
+.card img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left:30%;
+    margin-top: 5px;
+}
+.card p{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    color:red;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.267);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;   
+}
+footer h4{
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    justify-content:  end;
+    align-items: center;
+    margin-left: 10px;
+}
+footer h4 a{
+    text-decoration: red;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    color: blue;
+}
+footer p{ display: flex;
+    
+    margin-left: 40px;
+    text-align: end;
+    font-size: 14px;
+    justify-content: flex-start;
+}
+footer p span{
+    font-size: 18px;
+    font-family: cursive;
+    color: blue;
+    text-shadow: 3px 5px 5px red;
+}
+@media all and ( max-width:400px)  {
+    body{
+        background-image: url(img/copa.jpeg);
+        width: 90vw;
+        height: 100vh;
+        margin-left: 10px;
+        border: none;
+        margin-left: 10%;
+    }
+    header{
+        display: flex;
+        width: 90%;
+        height:auto;
+        
+      
+        background-color: rgba(0, 0, 255, 0.267);
+        margin: 5px;
+        border-radius: 5px;
+     }
+     header img{
+        width: 40px;
+        border-radius: 50%;
+        margin: 10px
+    }
+    .enlases-header{
+        width: 80%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .enlases-header a{
+        font-size: 10px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        
+       }
+       .container{
+        width: 80vw;
+        height: 30vh;
+      
+    }
+    .container h1{
+        width: 70%;
+        margin-left:10%;
+        font-size: 25px;
+        font-weight: 600;
+        text-shadow:2px 3px 3px rgb(150, 30, 30);
+       
+    }
+    .container h2{
+        width: 70%;
+        font-size:25px;
+        font-family: inherit;
+        font-weight: 600;
+        color: lightcoral;
+        text-shadow: 2px 3px 3px blue;
+        margin-left: 15%;
+    }
+    .card {
+        flex-direction: column;
+        width: 80vw;
+        height:auto;
+        border: 1px solid blue;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: rgba(0, 139, 139, 0.37);
+     
+        
+    }
+    .card h3{
+        text-align: center;
+        font-size: 15px;
+        font-family: cursive;
+        color: blue;
+        text-shadow: 3px 5px 5px white;
+    }
+    .card img{
+        width: 70px;
+        border-radius: 50%;
+        margin-left:35%;
+        margin-top: 10px;
+    }
+    .card p{
+        text-align: center;
+        font-size: 15px;
+        font-family: cursive;
+        color:red;
+        margin: 10px;
+
+    }
+    footer{
+        flex-direction: column;
+        width: 90%;
+        height:auto;
+        background-color: rgba(0, 0, 255, 0.267);
+        margin-left: 10px;
+        border-radius: 15px;   
+    }
+    footer h4{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        font-family: cursive;
+        justify-content:  end;
+        align-items: center;
+        margin-left: 10px;
+    }
+    footer h4 a{
+        text-decoration: red;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 5px;
+        color: blue;
+    }
+    footer p{
+           
+        margin-left: 20px;
+        text-align: end;
+        font-size: 10px;
+        justify-content: flex-start;
+    }
+    footer p span{
+        font-size: 15px;
+        font-family: cursive;
+        width: 50%;
+        margin-bottom: 10px;
+        color: blue;
+        text-shadow: 3px 5px 5px red;
+    }
+}

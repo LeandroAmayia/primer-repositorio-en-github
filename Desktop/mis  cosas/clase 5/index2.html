@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <header > 
+        <nav class="header">
+            <a href="index.html">Inicio</a>
+            <a href="#">Login</a>
+            <a href="index3.html">Registro</a>
+        </nav>
+        <section class="form-section">
+            <form action="">
+               <div class="form-nombres">
+                <p>
+                    Dejanos tus datos y nos ponemos en contacto
+                </p>
+               
+                <label for="">Nombre :</label>
+                <input type="text" placeholder="tu nombre" required> <br>
+                <label for="">Correo :</label>
+                <input type="email" placeholder="nombre@....." required>
+               
+               </div>
+               <div class="form-dedondesos">
+                   <p>
+                       De que departamento sos ?
+                   </p>  <br>
+                      <select name="Departamentos" id="departamentos">Departamentos
+                      <option value="gc">Godoy cruz</option>
+                      <option value="gllen">Guaymallén</option>
+                      <option value="lh">Las Heras</option>
+                      <option value="jan">Lujan</option>
+                    </select>
+                  
+               </div>
+               <div class="form-iluminacion">
+                   <p> Que te pareció la iluminación ?</p>
+                   <input type="checkbox">
+                   <label for="buena">Muy Acorde</label> <br>
+                   <input type="checkbox">
+                   <label for="mas o menos">Buena , Pero podría ser mejor</label> <br>
+                   <input type="checkbox">
+                   <label for="mala">Mala</label> 
+               </div>
+               <div class="form-calendario">
+                   <p> Cuando nos visitaste ?</p>
+                   <input type="date">
+               </div>
+               <div class="form-recomendarlugar">
+                   <p>Recomendarías este lugar ?</p>
+                   <input type="radio">
+                  <label  type="si">SI</label>
+                   <input type="radio">
+                   <label for="NO">NO</label>
+                   <p>
+                       Por qué ?
+                   </p>
+                  <textarea name="respuesta" id="" cols="30" rows="10" placeholder="tu honestidad es nuestra luz"></textarea>
+
+               </div>
+               <div class="form-botones">
+                    <button type="submit">ENVIAR</button>
+                     <button type="reset">RESETEAR</button>
+               </div>
+            </form>
+        </section>
+    </header>
+    
+</body>
+</html>

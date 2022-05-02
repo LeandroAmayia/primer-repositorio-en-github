@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:burlywood;
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornsilk;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid cornsilk;
+}
+.subtitulo{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 800;
+    color: rgba(182, 70, 70, 0.705);
+    margin-left: 50px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+   
+}
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    margin-left: 50px;
+}
+.header a:hover{
+    border-bottom: 2px solid white;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+}
+.section img{
+    width: 60%;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 15px;
+  margin-left: 20%;
+}
+.section h3{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 700;
+    margin-left: 40%;
+}
+.section p{
+    text-align:end;
+    margin-right: 30px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    text-align: center;
+}
+.footer p{
+    padding-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    padding-top: 5px;
+    color: white;
+}
+/*  acá vamos a dar estilo a la segunda página */
+.título-register{
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 700;
+    text-align: center;
+}
+.form-section{
+    width: 70%;
+    height: 900px;
+    background-color: grey;
+    border: 2px solid black;
+    margin: 20px 50px;
+}
+.form-nombres{
+    display: flex;
+    flex-direction: column;
+}
+.form-nombres p{
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    margin-left: 20px;
+}
+.form-nombres input{
+    width: 30%;
+    margin-left: 20px;
+}
+.form-nombres label{
+    font-size: 20px;
+    font-family: fantasy;
+    margin-bottom: 10px;
+    
+}
+.form-dedondesos p{
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    margin-left: 20px;
+
+}
+.form-dedondesos select{
+    width: 30%;
+    margin-left: 20px;
+}
+.form-iluminacion p{
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    margin-left: 20px;
+}
+.form-iluminacion label{
+    font-size: 20px;
+    font-family: fantasy;
+    margin-bottom: 10px;
+}
+.form-calendario p{
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    margin-left: 20px;
+
+}
+.form-calendario input{
+    width: 30%;
+    margin-left: 20px;
+}
+.form-recomendarlugar p{
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    margin-left: 20px;
+}
+.form-recomendarlugar input{
+    margin-left: 40px;
+}
+.form-botones button{
+    font-size: 20px;
+    font-family: monospace;
+    background-color: darkgoldenrod;
+    border-radius: 10px 
+}
+/* acá vamos a darle estilo a la tercer página */
+.form-register{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: calibri;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 10px;
+}
+.form-register h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background-color:#24303c ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.botons{
+    width: 100%;
+    background-color:#1f53c5 ;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    border-radius: 14px;
+}

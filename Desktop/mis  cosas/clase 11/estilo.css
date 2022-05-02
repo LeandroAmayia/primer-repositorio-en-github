@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.portada{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    border-radius: 15px;
+}
+.nav-fija{
+    position: fixed;
+    width: 90%;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0.301);
+    text-align: right;
+    
+    margin-left: 10px;
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    
+}
+.nav-fija a{
+    color: white;
+    margin: 5px;    
+}
+.nav-fija a:hover{
+    font-size: 1.5rem;
+}
+.pie_header{
+    width: 90%;
+    background-color: black;
+    margin-left: 10px;   
+    color: white;
+    display: flex;
+    justify-content:  space-around;
+    border-radius:15px ;
+    position: relative;
+    bottom: 30px;
+}
+.pie_header a{
+    color: white;
+    font-size: 1rem;
+    font-family: cursive;
+    text-decoration: none;  
+   
+}
+.pie_header a:hover{
+    font-size: 1.5rem;
+}
+.section{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+
+}
+.cajita{
+   
+    min-width: 120px;
+    height: auto;
+    background-color: green;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px black;
+    
+
+    
+}
+.cajita i{
+   
+    
+    margin-top: 10px;
+    color: white;
+    width: 40px;
+    padding: 10px;
+  
+}
+.cajita a{
+    display: flex;
+    justify-content: space-around;
+    
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    margin-top: 20px; 
+}
+.cajita a:hover{
+    color: black;
+    padding-bottom: 5px;
+}
+.cajita:nth-child(odd){
+    background-color: orange;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav_footer{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.nav_footer a{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+.nav_footer a:hover{
+    border-bottom:white solid 3px;
+}
+.p_footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+.nav2_footer{
+    display: flex;
+    justify-content: end;
+    
+}
+.nav2_footer a{
+    padding-right: 10px;
+    color: white;
+}
+.nav2_footer a:hover{
+    color: rgb(107, 107, 19);
+}
+@media(min-width: 700px ) {
+  
+    .section{
+        flex-direction: row;
+       
+      
+    }
+    .cajita{
+        width: 50%;
+        height: 150px;
+        margin: 40px 20px ;      
+    }
+    .footer{
+      margin-top: 20vh;
+  
+}
+
+
+
